@@ -10,7 +10,7 @@ import whatsapp from '../../images/bxl-whatsapp.png'
 
 const Footer = () => {
     return (
-        
+        <div>
             <div className="cusFooterContainer1">
               
                 <div className="container" >
@@ -20,7 +20,7 @@ const Footer = () => {
                                 <h4 style={{color: 'white', fontWeight:'bold'}}>POWER 
                                     <span style={{color: 'yellow'}}> X</span>
                                 </h4>
-                            </a> 
+                            </a>
                         </div>
                         <div className="col-md-10">
                             <div className="container cusFooter">
@@ -60,13 +60,13 @@ const Footer = () => {
                         </div>
                     </div>
                     <br/><br/>
-                    <br/><br/>
+                    <br/>
                 <footer className="text-center">Copyright @2020 All Right Reserved</footer>
                 </div>
                 
                 
-            
             </div>
+        </div>
         
     );
 };

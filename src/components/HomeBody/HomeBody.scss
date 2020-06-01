@@ -1,0 +1,212 @@
+.homeFirstDiv {
+    margin-top: 50px;
+    // padding-top: 50px;
+    /* background-image: url('../../images/footer\ background.jpg'); */
+    // background-color: #171426;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    height: 435px;
+}
+
+.homeSecondDiv {
+    padding-top: 55px;
+    height: 500px;
+}
+
+.homeThirdDiv {
+    padding-top: 200px;
+    height: 700px;
+}
+
+.homeTraining{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+    // padding: 55px;
+}
+
+
+.homeChooseDivAll:hover {
+    border: 2px #fcd842 solid;
+    box-shadow: 1px 3px 1px lightgray;
+}
+
+.homeCategoryDivAll{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 55px;
+}
+
+.homeChooseDivAll{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    // color: white;
+    text-align: center;
+    padding: 55px;
+}
+
+.homeTrainingDiv1 {
+    background-image: url('../../images/bruce-mars-gJtDg6WfMlQ-unsplash.png');
+    // filter: blur(0.5px);
+}
+
+.homeTrainingDiv2 {
+    background-image: url('../../images/arthur-edelman-qfjuh4OLdxw-unsplash.jpg');
+    // transform: scale(1.1)
+}
+
+.homeAboutUsDiv img{
+    width: 90%;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // color: white;
+    // text-align: center;
+    // padding: 55px;
+    // background-image: url('../../images/wells-chan-H-vAxuWxmi8-unsplash.jpg');
+}
+
+.homeAboutUsDiv2 h1, .homeAboutUsDiv2 h2, .homeAboutUsDiv2 p{
+    padding-left: 50px;
+}
+
+// .homeAboutUsDiv2 hr{
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// .homeCategoryDivAll{
+//     background-color: rgb(0,0,0); /* Fallback color */
+//     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+//     color: white;
+//     // font-weight: bold;
+//     position: cover;
+//     // top: 100%;
+//     // left: 100%;
+//     // transform: translate(-100%, -100%);
+//     z-index: 2;
+//     // width: 80%;
+//     // padding: 20px;
+//     text-align: center;
+// }
+
+
+.homeCategoryDiv1 {
+    background-image: url('../../images/hipcravo-5UbIqV58CW8-unsplash.jpg');
+    // filter: blur(0.5px);
+}
+
+.homeCategoryDiv2 {
+    background-image: url('../../images/daniel-apodaca-WdoQio6HPVA-unsplash.jpg');
+    // transform: scale(1.1)
+}
+
+.homeCategoryDiv3 {
+    background-image: url('../../images/penguinuhh-8VI6WwEEEHw-unsplash.jpg');
+    // filter: blur(0.5px);
+    
+}
+
+.trainingBtn{
+    padding: 10px 40px;
+    font-weight: bold;
+    border: none;
+    background-color: #fcd842;
+}
+
+
+
+.homeLastDiv {
+    margin-bottom: -200px;
+}
+
+
+
+
+
+
+
+
+// Responsive
+/* 0px to 450px */
+@media (max-width: 450px){ 
+    .cusHeader2 p{
+        padding-top: 100px;
+    }
+    .homeFirstDiv {
+        height: 1000px;
+    }
+    .homeSecondDiv {
+        text-align: center;
+        padding-top: 200px;
+        height: 700px;
+    }
+    .homeAboutUsDiv {
+        padding-bottom: 50px;
+    }
+    .homeAboutUsDiv2 h1, .homeAboutUsDiv2 h2, .homeAboutUsDiv2 p{
+        padding-left: 0px;
+    }
+    .homeThirdDiv {
+        padding-top: 500px;
+        height: 1100px;
+    }
+    .homeLastDiv{
+        padding-top: 330px;
+    }
+    .cusFooterContainer1 {
+        // margin-top: 300px !important;
+        height: 900px !important;
+    }
+}
+
+/* 451px to 768px */
+@media (min-width: 451px) and (max-width: 768px){ 
+    .cusHeader2 p{
+        padding-top: 75px;
+        font-size: 100px;
+        color: gray;
+    }
+    .homeFirstDiv {
+        height: 1000px;
+    }
+    .homeSecondDiv {
+        text-align: center;
+        padding-top: 200px;
+        height: 700px;
+    }
+    .homeAboutUsDiv {
+        padding-bottom: 50px;
+    }
+    .homeAboutUsDiv2 h1, .homeAboutUsDiv2 h2, .homeAboutUsDiv2 p{
+        padding-left: 0px;
+    }
+    .homeThirdDiv {
+        padding-top: 500px;
+        height: 1100px;
+    }
+    .homeLastDiv{
+        padding-top: 330px;
+    }
+    .cusFooterContainer1 {
+        // margin-top: 300px !important;
+        height: 900px !important;
+    }
+}
+
+/* 769px to 1024px */
+@media (min-width: 769px) and (max-width: 1024px){ 
+    
+}
+
+/* 1025px */
+@media (min-width: 1025px){ 
+    
+}

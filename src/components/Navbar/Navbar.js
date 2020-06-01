@@ -1,18 +1,20 @@
 import React from 'react';
 import './Navbar.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
     return (
         <div>
             <header className="header">
-                <nav className="navbar navbar-expand-lg fixed-top py-3" >   {/* fixed-top */}
+                <nav className="navbar navbar-expand-lg  py-3" >   {/* fixed-top */}
                     <div className="container">
                         
-                        <a href="/" className="navbar-brand text-uppercase font-weight-bold">
-                            <h4 style={{color: 'red', fontSize:'bold'}}>POWER 
+                        <a href="/" className="navbar-brand text-uppercase font-weight-bold" style={{paddingTop: '20px'}}>
+                            <h4 style={{color: 'white', fontWeight:'bold'}}>POWER 
                                 <span style={{color: 'yellow'}}> X</span>
                             </h4>
-                        </a> 
+                        </a>
                        
                         <button type="button" 
                             data-toggle="collapse" 
@@ -22,7 +24,8 @@ const Navbar = () => {
                             aria-label="Toggle navigation" 
                             className="navbar-toggler navbar-toggler-right"
                         >
-                            <i className="fa fa-bars"></i>
+                            <FontAwesomeIcon icon={faBars}/>
+                            {/* <i className="fa fa-bars"></i> */}
                         </button>
 
                         <div id="navbarSupportedContent" className="collapse navbar-collapse">
