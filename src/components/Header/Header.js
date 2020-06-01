@@ -15,7 +15,9 @@ const Header = () => {
                                 <br/>
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere quo dolorem ex doloribus cumque impedit deleniti voluptate deserunt saepe fugit vitae unde recusandae quidem et aut perferendis at, in eum.</p>
                                 <br/>
-                                <button className="joinUsBtn">JOIN US</button>
+                                <button className="joinUsBtn">
+                                    <a href="/price">JOIN US</a>
+                                </button>
                             </div>
                         {/* </div> */}
                         <div className="col-md-6 cusHeader2 d-flex align-items-center justify-content-center">

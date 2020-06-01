@@ -20,12 +20,14 @@ function App() {
             <Footer />
           </Route>
 
-          <Route path='/class'></Route>
+
+          <Route path='/class'>
+            <Navbar />
+            <Footer />
+          </Route>
           <Route path='/details'></Route>
           <Route path='/price'></Route>
           <Route path='/membership'></Route>
-
-          
 
           
           <Route path='*'>

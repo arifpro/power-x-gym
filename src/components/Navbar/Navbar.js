@@ -36,33 +36,33 @@ const Navbar = () => {
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/#" className="nav-link">
+                                    <a href="#/" className="nav-link">
                                         <span>Services</span>
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/#" className="nav-link">
+                                    <a href="/class" className="nav-link">
                                         <span>Our Classes</span>
                                     </a>
                                 </li>
                                 
                                 <li className="nav-item">
-                                    <a href="/#" className="nav-link">
+                                    <a href="#" className="nav-link">
                                         <span>About us</span>
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/#" className="nav-link">
+                                    <a href="#" className="nav-link">
                                         <span>Blog</span>
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/#" className="nav-link">
+                                    <a href="/price" className="nav-link">
                                         <span>pricing</span>
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="/#" className="nav-link">
+                                    <a href="#" className="nav-link">
                                         <span>Contact Us</span>
                                     </a>
                                 </li>
