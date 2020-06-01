@@ -5,6 +5,8 @@ import Header from './components/Header/Header';
 import HomeBody from './components/HomeBody/HomeBody';
 import Footer from './components/Footer/Footer';
 import PageNotFound from './components/PageNotFound/PageNotFound';
+import SubHeader from './components/SubHeader/SubHeader';
+import ClassBody from './components/ClassBody/ClassBody';
 
 
 function App() {
@@ -23,11 +25,21 @@ function App() {
 
           <Route path='/class'>
             <Navbar />
+            <SubHeader header='OUR CLASSES' />
+            <ClassBody/>
             <Footer />
           </Route>
-          <Route path='/details'></Route>
-          <Route path='/price'></Route>
-          <Route path='/membership'></Route>
+          <Route path='/details'>
+
+          </Route>
+          <Route path='/price'>
+            <Navbar />
+            <SubHeader header='PRICING PLANS' />
+            <Footer />
+          </Route>
+          <Route path='/membership'>
+
+          </Route>
 
           
           <Route path='*'>
