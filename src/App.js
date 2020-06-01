@@ -9,14 +9,15 @@ import PageNotFound from './components/PageNotFound/PageNotFound';
 
 function App() {
   return (
-    <div>
+    
       <Router>
         <Switch>
 
           <Route exact path='/'>
-            <Navbar />
+            {/* <Navbar /> */}
             <Header />
-            <HomeBody />
+            {/* <HomeBody /> */}
+            
             <Footer />
           </Route>
 
@@ -27,14 +28,14 @@ function App() {
 
           
 
-          {/* <Route path='/doctor/:pageName'></Route> */}
+          
           <Route path='*'>
             <PageNotFound />
           </Route>
 
         </Switch>
       </Router>
-    </div>
+    
   );
 }
 

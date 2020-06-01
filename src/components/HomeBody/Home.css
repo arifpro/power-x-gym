@@ -1,0 +1,101 @@
+* {
+    font-family: sans-serif;
+}
+
+.customContainer1 {
+    background-image: url('../../images/Mask\ Group\ 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+    /* height: 80vh; */
+}
+
+/* @media (max-width: 991.98px) {
+    .customContainer1 {
+        background-image: url('../../images/Mask\ Group\ 2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 1000px;
+    }
+    .customDiv2 {
+        height: 1000px;
+        width: 50%;
+    }
+    .customDiv3 {
+        background-color: #3a4256;
+    }
+    .customDiv3 img {
+        width: 50%;
+    }
+} */
+
+.customDiv1 {
+    padding-left: 130px;
+    padding-bottom: 150px;
+}
+
+.customDiv2 {
+    height: 1000px;
+    width: 50%;
+}
+
+.customDiv3 {
+    background-color: #3a4256;
+}
+
+/* .customDiv3 {
+    background-color: rgb(70, 68, 68);
+} */
+
+.customDiv3 img {
+    width: 150%;
+    margin-left: -300px;
+    /* margin-bottom: -150px; */
+}
+
+.topDetails {
+    color: darkgray;
+}
+
+.getAppointmentBtn {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #2ee7a0, #0fcfea);
+    padding: 10px 20px;
+}
+
+.homeTopH6 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.homeTopOptions2 {
+    /* margin-left: 25px; */
+    border-radius: 5px;
+    color: white;
+    background-color: #3a4256;
+    padding: 15px 10px;
+    margin-bottom: 150px;
+    margin: 0px 20px;
+    margin-top: -50px;
+}
+
+.homeTopOptions {
+    /* margin-left: 25px; */
+    border-radius: 5px;
+    color: white;
+    background-color: #1cc7c1;
+    padding: 15px 10px;
+    margin-bottom: 150px;
+    margin: 0px 20px;
+    margin-top: -50px;
+}
+
+.homeIcons {
+    font-size: 60px;
+    padding: 0px 25px;
+}
