@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import SubHeader from './components/SubHeader/SubHeader';
 import ClassBody from './components/ClassBody/ClassBody';
+import PriceBody from './components/PriceBody/PriceBody';
 
 
 function App() {
@@ -29,14 +30,21 @@ function App() {
             <ClassBody/>
             <Footer />
           </Route>
+
+
           <Route path='/details'>
 
           </Route>
+
+
           <Route path='/price'>
             <Navbar />
             <SubHeader header='PRICING PLANS' />
+            <PriceBody/>
             <Footer />
           </Route>
+
+
           <Route path='/membership'>
 
           </Route>
