@@ -1,24 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import Header from './components/Header/Header';
+import HomeBody from './components/HomeBody/HomeBody';
+import Footer from './components/Footer/Footer';
+import PageNotFound from './components/PageNotFound/PageNotFound';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Switch>
+
+          <Route exact path='/'>
+            <Navbar />
+            <Header />
+            <HomeBody />
+            <Footer />
+          </Route>
+
+          <Route path='/class'></Route>
+          <Route path='/details'></Route>
+          <Route path='/price'></Route>
+          <Route path='/membership'></Route>
+
+          
+
+          {/* <Route path='/doctor/:pageName'></Route> */}
+          <Route path='*'>
+            <PageNotFound />
+          </Route>
+
+        </Switch>
+      </Router>
     </div>
   );
 }
