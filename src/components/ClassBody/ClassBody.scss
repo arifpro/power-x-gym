@@ -1,6 +1,30 @@
 .classesBtn{
-    padding: 10px 40px;
     font-weight: bold;
-    border: none;
     background-color: #fcd842;
+    margin-top: 180px;
+    width: 70%;
+}
+.classesListDiv img{
+    width: 100%;
+    // padding: 3px;
+}
+.classesListDiv {
+    position: relative;
+    margin-top: 100px;
+}
+.classesListDiv .classesBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    // padding: 0px 10px 0px 0px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.classesListDiv .classesBtn:hover {
+    background-color: rgb(230, 233, 48);
 }

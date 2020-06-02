@@ -1,33 +1,75 @@
 import React from 'react';
+import './ClassBody.scss';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+
+import img1 from '../../images/victor-freitas-546919-unsplash.png'
+import img2 from '../../images/baylee-gramling-5m4Z14SDL80-unsplash2.jpg'
+import img3 from '../../images/humphrey-muleba-LOA2mTj1vhc-unsplash2.jpg'
+import img4 from '../../images/alora-griffiths-TuzrzArccvc-unsplash2.jpg'
+import img5 from '../../images/john-fornander-FIu48iuo_4g-unsplash2.jpg'
+import img6 from '../../images/sven-mieke-Lx_GDv7VA9M-unsplash2.jpg'
+
 
 const ClassBody = () => {
     return (
         <div>
-            <section className="homeThirdDiv container">
-                <h2 style={{fontWeight:'bold', textAlign: 'center'}}>TRAINING
-                    <span style={{color:'#fcd842'}}> PROGRAMS</span>
-                </h2>
-                
-                <br/><br/>
-                <div class="card-deck">
-                    <div class="card">
-                        <div class="card-body homeTraining homeTrainingDiv1"  style={{textAlign: 'left', padding: '0px'}}>
-                            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                            <button class="card-title trainingBtn" style={{marginBottom: '40px'}}>YOGA TRAINING SESSION    	
-                            <FontAwesomeIcon icon={faArrowRight}/>
+            <section className="classesListDiv container">
+                <div className="row">
+                    <div className="col-md-4">
+                        <img src={img1} alt=""/>
+                        <Link to='/details'>
+                            <button class="classesBtn">
+                                PSYCHO TRAINING <FontAwesomeIcon icon={faArrowRight}/>
                             </button>
-                            <br/>
-                        </div>
+                        </Link>
                     </div>
-                    <div class="card">
-                        <div class="card-body homeTraining homeTrainingDiv2" style={{textAlign: 'left', padding: '0px'}}>
-                        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                        <button class="card-title trainingBtn" style={{marginBottom: '40px'}}>CARDIO TRAINING SESSION    	<FontAwesomeIcon icon={faArrowRight}/>
-                        </button>
-                        {/* <br/> */}
-                        </div>
+                    <div className="col-md-4">
+                        <img src={img2} alt=""/>
+                        <Link to='/details'>
+                            <button class="classesBtn">
+                                SELF DEFENSE <FontAwesomeIcon icon={faArrowRight}/>
+                            </button>
+                        </Link>
+                    </div>
+                    <div className="col-md-4">
+                        <img src={img3} alt=""/>
+                        <Link to='/details'>
+                            <button class="classesBtn">
+                                ADVANCE GYM <FontAwesomeIcon icon={faArrowRight}/>
+                            </button>
+                        </Link>
+                    </div>
+                </div>
+            </section>
+
+
+            <section className="classesListDiv container">
+                <div className="row">
+                    <div className="col-md-4">
+                        <img src={img4} alt=""/>
+                        <Link to='/details'>
+                            <button class="classesBtn">
+                                CARDIO TRAINING <FontAwesomeIcon icon={faArrowRight}/>
+                            </button>
+                        </Link>
+                    </div>
+                    <div className="col-md-4">
+                        <img src={img5} alt=""/>
+                        <Link to='/details'>
+                            <button class="classesBtn">
+                                STRENGTH TRAINING <FontAwesomeIcon icon={faArrowRight}/>
+                            </button>
+                        </Link>
+                    </div>
+                    <div className="col-md-4">
+                        <img src={img6} alt=""/>
+                        <Link to='/details'>
+                            <button class="classesBtn">
+                                PSYCHO TRAINING <FontAwesomeIcon icon={faArrowRight}/>
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </section>
