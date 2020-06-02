@@ -2,6 +2,7 @@ import React from 'react';
 import './PriceBody.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 const PriceBody = () => {
     return (
@@ -28,9 +29,11 @@ const PriceBody = () => {
                                 <li><FontAwesomeIcon icon={faCheck}/> Outstanding</li>
                                 <li><FontAwesomeIcon icon={faCheck}/> Happy Customers</li>
                             </ul>
-                            <button className="joinUsBtn">
-                                <a href="/details">PURCHASE</a>
-                            </button>
+                            <Link to='/membership'>
+                                <button className="joinUsBtn">
+                                    PURCHASE
+                                </button>
+                            </Link>
                         </div>
                     </div>
                     <div class="card">
@@ -48,9 +51,11 @@ const PriceBody = () => {
                                     <li><FontAwesomeIcon icon={faCheck}/> Happy Customers</li>
                                 </ul>
                             </div>
-                            <button className="joinUsBtn">
-                                <a href="/details">PURCHASE</a>
-                            </button>
+                            <Link to='/membership'>
+                                <button className="joinUsBtn">
+                                    PURCHASE
+                                </button>
+                            </Link>
                         </div>
                     </div>
                     <div class="card">
@@ -66,9 +71,11 @@ const PriceBody = () => {
                                 <li><FontAwesomeIcon icon={faCheck}/> Outstanding</li>
                                 <li><FontAwesomeIcon icon={faCheck}/> Happy Customers</li>
                             </ul>
-                            <button className="joinUsBtn">
-                                <a href="/details">PURCHASE</a>
-                            </button>
+                            <Link to='/membership'>
+                                <button className="joinUsBtn">
+                                    PURCHASE
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

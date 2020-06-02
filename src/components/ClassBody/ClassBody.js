@@ -21,7 +21,7 @@ const ClassBody = () => {
                         <img src={img1} alt=""/>
                         <Link to='/details'>
                             <button class="classesBtn">
-                                PSYCHO TRAINING <FontAwesomeIcon icon={faArrowRight}/>
+                                PSYCHO TRAINING &nbsp;&nbsp;&nbsp; <FontAwesomeIcon icon={faArrowRight}/>
                             </button>
                         </Link>
                     </div>
@@ -29,7 +29,7 @@ const ClassBody = () => {
                         <img src={img2} alt=""/>
                         <Link to='/details'>
                             <button class="classesBtn">
-                                SELF DEFENSE <FontAwesomeIcon icon={faArrowRight}/>
+                                SELF DEFENSE &nbsp;&nbsp;&nbsp; <FontAwesomeIcon icon={faArrowRight}/>
                             </button>
                         </Link>
                     </div>
@@ -37,7 +37,7 @@ const ClassBody = () => {
                         <img src={img3} alt=""/>
                         <Link to='/details'>
                             <button class="classesBtn">
-                                ADVANCE GYM <FontAwesomeIcon icon={faArrowRight}/>
+                                ADVANCE GYM &nbsp;&nbsp;&nbsp; <FontAwesomeIcon icon={faArrowRight}/>
                             </button>
                         </Link>
                     </div>
@@ -51,7 +51,7 @@ const ClassBody = () => {
                         <img src={img4} alt=""/>
                         <Link to='/details'>
                             <button class="classesBtn">
-                                CARDIO TRAINING <FontAwesomeIcon icon={faArrowRight}/>
+                                CARDIO TRAINING &nbsp;&nbsp;&nbsp; <FontAwesomeIcon icon={faArrowRight}/>
                             </button>
                         </Link>
                     </div>
@@ -59,7 +59,7 @@ const ClassBody = () => {
                         <img src={img5} alt=""/>
                         <Link to='/details'>
                             <button class="classesBtn">
-                                STRENGTH TRAINING <FontAwesomeIcon icon={faArrowRight}/>
+                                STRENGTH TRAINING &nbsp;&nbsp;&nbsp; <FontAwesomeIcon icon={faArrowRight}/>
                             </button>
                         </Link>
                     </div>
@@ -67,7 +67,7 @@ const ClassBody = () => {
                         <img src={img6} alt=""/>
                         <Link to='/details'>
                             <button class="classesBtn">
-                                PSYCHO TRAINING <FontAwesomeIcon icon={faArrowRight}/>
+                                PSYCHO TRAINING &nbsp;&nbsp;&nbsp; <FontAwesomeIcon icon={faArrowRight}/>
                             </button>
                         </Link>
                     </div>

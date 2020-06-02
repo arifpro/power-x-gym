@@ -15,8 +15,10 @@
     text-align: left;
 }
 .priceCategoryDivAll li {
-    list-style-type: none;
-    
+    list-style-type: none; 
+}
+.joinUsBtn:hover {
+    background-color: rgb(230, 233, 48);
 }
 .priceCategoryDiv1 {
     background-image: url('../../images/hipcravo-5UbIqV58CW8-unsplash.jpg');
@@ -26,4 +28,49 @@
 }
 .priceCategoryDiv3 {
     background-image: url('../../images/penguinuhh-8VI6WwEEEHw-unsplash.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Responsive
+/* 0px to 450px */
+@media (max-width: 325px){ 
+    .priceFirstDiv {
+        height: 1450px;
+    }
+}
+
+@media (min-width: 325px) and (max-width: 372px){ 
+    .priceFirstDiv {
+        height: 1380px;
+    }
+}
+
+@media (min-width: 372px) and (max-width: 576px){ 
+    .priceFirstDiv {
+        height: 1350px;
+    }
+}
+
+/* 451px to 768px */
+@media (min-width: 576px) and (max-width: 768px){ 
+    .priceFirstDiv {
+        height: 550px;
+    }
+    .priceCategoryDivAll{
+        padding: 0px !important;
+        display: flex !important;
+        width: 110%;
+        flex-wrap: wrap !important;
+    }
 }

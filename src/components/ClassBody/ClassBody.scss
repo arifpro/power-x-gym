@@ -28,3 +28,97 @@
 .classesListDiv .classesBtn:hover {
     background-color: rgb(230, 233, 48);
 }
+
+
+
+
+
+
+
+// Responsive
+/* 0px to 450px */
+@media (max-width: 325px){ 
+    .classesBtn{
+        margin-top: 100px;
+        font-size: 12px !important;
+        padding: 8px 20px !important;
+    }
+}
+
+@media (min-width: 325px) and (max-width: 372px){ 
+    .classesBtn{
+        margin-top: 130px;
+        font-size: 12px !important;
+        padding: 8px 20px !important;
+    }
+}
+
+@media (min-width: 372px) and (max-width: 450px){ 
+    .classesBtn{
+        margin-top: 150px;
+        font-size: 12px !important;
+        padding: 8px 20px !important;
+    }
+}
+
+/* 451px to 768px */
+@media (min-width: 451px) and (max-width: 768px){ 
+    
+}
+
+/* 769px to 1024px */
+// @media (min-width: 769px) and (max-width: 1024px){ 
+    
+// }
+
+
+@media (min-width: 768px) and (max-width: 950px){ 
+    .classesBtn{
+        margin-top: 100px;
+        font-size: 12px !important;
+        padding: 8px 20px !important;
+    }
+}
+
+
+@media (min-width: 950px) and (max-width: 992px){ 
+    .classesBtn{
+        margin-top: 100px;
+        font-size: 12px !important;
+        padding: 8px 20px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1025px){ 
+    .classesBtn{
+        margin-top: 140px;
+        font-size: 12px !important;
+        padding: 10px 20px;
+    }
+}
+// @media (min-width: 1026px) and (max-width: 1080px){ 
+//     .classesBtn{
+//         margin-top: 150px;
+//     }
+// }
+// @media (min-width: 1081px) and (max-width: 1150px){ 
+//     .classesBtn{
+//         margin-top: 150px;
+//     }
+// }
+// @media (min-width: 1151px) and (max-width: 1200px){ 
+//     .classesBtn{
+//         margin-top: 150px;
+//     }
+// }
+@media (min-width: 1026px) and (max-width: 1200px){ 
+    .classesBtn{
+        margin-top: 150px;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1300px){ 
+    .classesBtn{
+        margin-top: 170px;
+    }
+}
+
