@@ -1,3 +1,31 @@
 .membershipDiv {
     margin-top: 100px;
 }
+.memberForm input{
+    padding: 15px;
+    margin: 15px;
+}
+.memberForm label{
+    padding: 15px;
+    line-height: 0em;
+}
+.NextDiv{
+    margin-top: 25px;
+    text-align: right;
+}
+.paymentStepCount {
+    color: white;
+    text-align: center;
+    padding: 0px 25px;
+    margin: 25px 5px;
+}
+.paymentStepCount h1{
+    display: inline;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: gray;
+}
+.paymentStepCount h2{
+    display: inline;
+    color: gray;
+}

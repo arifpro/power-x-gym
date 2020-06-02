@@ -1,9 +1,9 @@
 import React from 'react';
 import './Details.scss'
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import gymBg from '../../images/humphrey-muleba-LOA2mTj1vhc-unsplash.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheckSquare } from '@fortawesome/free-solid-svg-icons'
+import { faCheckSquare,  } from '@fortawesome/free-solid-svg-icons'
 
 const Details = () => {
     const {page} = useParams()
@@ -76,9 +76,9 @@ const Details = () => {
                             </div>
                         </section>
                         <div className="joinUsDiv">
-                            <button className="joinUsBtn">
-                                <a href="/price">JOIN US</a>
-                            </button>
+                            <Link to='/price'>
+                                <button className="joinUsBtn">JOIN US</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
