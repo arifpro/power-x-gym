@@ -1,0 +1,36 @@
+.detailsDiv{
+    margin-top: 60px;
+}
+.classSchedule h2{
+    font-size: 40px;
+}
+.dayAndTimeDiv {
+    box-shadow: 1px 5px 15px lightgray;
+    // padding: 5px;
+    margin: 15px;
+}
+.dayAndTimeDiv p{
+    font-weight: 600;
+    line-height: 1em;
+    color: #fcd842;
+}
+.detailsDiv img{
+    width: 100%;
+}
+.classDetails p{
+    line-height: 2em;
+    margin-top: 25px;
+}
+.classDetails li {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 3em;
+    list-style-type: none; 
+}
+.classDetails span {
+    color: #fcd842; 
+}
+.joinUsDiv {
+    margin-top: 500px;
+    text-align: right;
+}

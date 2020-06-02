@@ -19,7 +19,7 @@ const ClassBody = () => {
                 <div className="row">
                     <div className="col-md-4">
                         <img src={img1} alt=""/>
-                        <Link to='/details'>
+                        <Link to='/details/psycho'>
                             <button class="classesBtn">
                                 PSYCHO TRAINING &nbsp;&nbsp;&nbsp; <FontAwesomeIcon icon={faArrowRight}/>
                             </button>
@@ -27,7 +27,7 @@ const ClassBody = () => {
                     </div>
                     <div className="col-md-4">
                         <img src={img2} alt=""/>
-                        <Link to='/details'>
+                        <Link to='/details/self'>
                             <button class="classesBtn">
                                 SELF DEFENSE &nbsp;&nbsp;&nbsp; <FontAwesomeIcon icon={faArrowRight}/>
                             </button>
@@ -35,7 +35,7 @@ const ClassBody = () => {
                     </div>
                     <div className="col-md-4">
                         <img src={img3} alt=""/>
-                        <Link to='/details'>
+                        <Link to='/details/advance'>
                             <button class="classesBtn">
                                 ADVANCE GYM &nbsp;&nbsp;&nbsp; <FontAwesomeIcon icon={faArrowRight}/>
                             </button>
@@ -49,7 +49,7 @@ const ClassBody = () => {
                 <div className="row">
                     <div className="col-md-4">
                         <img src={img4} alt=""/>
-                        <Link to='/details'>
+                        <Link to='/details/cardio'>
                             <button class="classesBtn">
                                 CARDIO TRAINING &nbsp;&nbsp;&nbsp; <FontAwesomeIcon icon={faArrowRight}/>
                             </button>
@@ -57,7 +57,7 @@ const ClassBody = () => {
                     </div>
                     <div className="col-md-4">
                         <img src={img5} alt=""/>
-                        <Link to='/details'>
+                        <Link to='/details/strength'>
                             <button class="classesBtn">
                                 STRENGTH TRAINING &nbsp;&nbsp;&nbsp; <FontAwesomeIcon icon={faArrowRight}/>
                             </button>
@@ -65,9 +65,9 @@ const ClassBody = () => {
                     </div>
                     <div className="col-md-4">
                         <img src={img6} alt=""/>
-                        <Link to='/details'>
+                        <Link to='/details/beginner'>
                             <button class="classesBtn">
-                                PSYCHO TRAINING &nbsp;&nbsp;&nbsp; <FontAwesomeIcon icon={faArrowRight}/>
+                                BEGINNER TRAINING &nbsp;&nbsp;&nbsp; <FontAwesomeIcon icon={faArrowRight}/>
                             </button>
                         </Link>
                     </div>

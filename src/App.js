@@ -8,6 +8,8 @@ import PageNotFound from './components/PageNotFound/PageNotFound';
 import SubHeader from './components/SubHeader/SubHeader';
 import ClassBody from './components/ClassBody/ClassBody';
 import PriceBody from './components/PriceBody/PriceBody';
+import Details from './components/Details/Details';
+import MembershipForm from './components/MembershipForm/MembershipForm';
 
 
 function App() {
@@ -27,26 +29,32 @@ function App() {
           <Route path='/class'>
             <Navbar />
             <SubHeader header='OUR CLASSES' />
-            <ClassBody/>
+            <ClassBody />
             <Footer />
           </Route>
 
 
-          <Route path='/details'>
-
+          <Route path='/details/:page'>
+            <Navbar />
+            <SubHeader header='ADVANCE GYM' />
+            <Details />
+            <Footer />
           </Route>
 
 
           <Route path='/price'>
             <Navbar />
             <SubHeader header='PRICING PLANS' />
-            <PriceBody/>
+            <PriceBody />
             <Footer />
           </Route>
 
 
           <Route path='/membership'>
-
+            <Navbar />
+            <SubHeader header='YOUR GYM MEMBERSHIP' />
+            <MembershipForm />
+            <Footer />
           </Route>
 
           

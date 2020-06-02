@@ -99,17 +99,17 @@
 
 
 .homeCategoryDiv1 {
-    background-image: url('../../images/hipcravo-5UbIqV58CW8-unsplash.jpg');
+    background-image: url('../../images/hipcravo-5UbIqV58CW8-unsplash2.jpg');
     // filter: blur(0.5px);
 }
 
 .homeCategoryDiv2 {
-    background-image: url('../../images/daniel-apodaca-WdoQio6HPVA-unsplash.jpg');
+    background-image: url('../../images/daniel-apodaca-WdoQio6HPVA-unsplash2.jpg');
     // transform: scale(1.1)
 }
 
 .homeCategoryDiv3 {
-    background-image: url('../../images/penguinuhh-8VI6WwEEEHw-unsplash.jpg');
+    background-image: url('../../images/penguinuhh-8VI6WwEEEHw-unsplash2.jpg');
     // filter: blur(0.5px);
 }
 
@@ -140,6 +140,9 @@
 @media (max-width: 450px){ 
     .cusHeader2 p{
         padding-top: 100px;
+    }
+    .vl {
+        height: 0%;
     }
     .homeFirstDiv {
         height: 1000px;
@@ -174,6 +177,9 @@
         padding-top: 75px;
         font-size: 100px;
         color: gray;
+    }
+    .vl {
+        height: 0%;
     }
     .homeFirstDiv {
         height: 1000px;

@@ -20,10 +20,15 @@ const Header = () => {
                                 </button>
                             </div>
                         {/* </div> */}
-                        <div className="col-md-6 cusHeader2 d-flex align-items-center justify-content-center">
-                            <p>
-                                <FontAwesomeIcon icon={faPlayCircle}/>
-                            </p>
+                        {/* d-flex align-items-center justify-content-center */}
+                        <div className="col-md-6 cusHeader2">
+                            {/* <div className="cusHeaderVL"> */}
+                                <div className="vl"></div>
+                                <p>
+                                    <FontAwesomeIcon icon={faPlayCircle}/>
+                                </p>
+                                <div className="vl"></div>
+                            {/* </div> */}
                         </div>
                     </div>
                 </div>

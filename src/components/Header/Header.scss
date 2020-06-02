@@ -3,14 +3,20 @@
     font-weight: bold;
     border: none;
     background-color: #fcd842;
+    border-radius: 5px;
 }
-
-
+.joinUsBtn a{
+    color: black;
+}
+.vl {
+    border-left: 1px solid gainsboro;
+    height: 45%;
+}
 
 
 .headerSection {
     // margin-top: 300px;
-    background-image: url('../../images/edgar-chaparro-sHfo3WOgGTU-unsplash2.jpg');
+    background-image: url('../../images/edgar-chaparro-sHfo3WOgGTU-unsplash3.jpg');
     // background-color: #171426;
     background-size:  cover;   //cover
     background-repeat: no-repeat;
@@ -24,9 +30,9 @@
     color: gray;
 }
 
-// .cusHeader2 {
-    
-// }
+.cusHeader2 {
+    text-align: center;
+}
 
 .cusHeader p{
     color: white;
@@ -36,3 +42,11 @@
     font-weight: 700;
     color: white;
 }
+
+.cusHeader2 div{
+    margin-left: 50%;
+}
+
+
+
+

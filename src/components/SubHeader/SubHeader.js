@@ -11,6 +11,8 @@ const SubHeader = (props) => {
                     <div className="cusSubHeader">
                         <h1>{props.header}</h1>
                     </div>
+                    {/* <div className="subHeadVL"></div> */}
+                    
                 </div>
             </section>
         </div>
