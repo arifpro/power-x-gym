@@ -1,3 +1,46 @@
+# Power X GYM
+It is a GYM's website where 
+- Customer has to choose plan in order to get membership. 
+- Stripe is added for payment method.  
+
+## Deployment
+This website is deployed on Firebase.
+## Tech/framework used
+- React
+- Node.js 
+- MongoDB  
+- Stripe.js 
+- HTML
+- CSS
+- BOOTSTRAP
+- Firebase Hosting.
+
+
+## Screenshots
+
+### Home Page
+![alt text](https://i.ibb.co/2Pr8pbY/power-x-gym-1.png)
+
+### Our Classes Page
+![alt text](https://i.ibb.co/BK0xYBr/power-x-gym-2.png)
+
+### Details Page
+![alt text](https://i.ibb.co/mGWKJsm/power-x-gym-3.png)
+
+### Pricing Plane Page
+![alt text](https://i.ibb.co/kyJ0SYN/power-x-gym-4.png)
+
+### Personal Data Entry
+![alt text](https://i.ibb.co/0QQvV3f/power-x-gym-5.png)
+
+### Payment Page
+![alt text](https://i.ibb.co/GnH4Mss/power-x-gym-6.png)
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
