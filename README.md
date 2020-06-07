@@ -1,4 +1,6 @@
-# Power X GYM
+# [Power X GYM](https://power-x-gym-a1s2.web.app/) &middot; [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![Author Arif](https://img.shields.io/badge/Author-Arif-%3C%3E)](https://www.facebook.com/ProArif0)
+
+
 It is a GYM's website where 
 - Customer has to choose plan in order to get membership. 
 - Stripe is added for payment method.  
